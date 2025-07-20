@@ -1,0 +1,52 @@
+/* Fonts */
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Styles */
+nav,
+ul, 
+.cart{
+    display: flex;
+}
+
+/* nav bar related styles */
+nav{
+    justify-content: space-between;
+    padding: 100px 120px;
+    align-items: center;
+}
+.nav_logo{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+ul{
+    list-style: none;
+    column-gap: 30px;
+    align-items: center;
+}
+.nav_menu{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cart{
+    position: relative;
+    font-size: 2rem;
+    top: 0;
+    left: 60;
+}

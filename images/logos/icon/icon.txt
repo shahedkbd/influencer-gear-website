@@ -1,0 +1,13 @@
+Search Icon: <i class="fa-solid fa-magnifying-glass"></i>
+
+Add-to-Cart: <i class="fa-solid fa-cart-shopping"></i>
+
+Arrow-Right: <i class="fa-solid fa-arrow-right"></i>
+
+Instagram: <i class="fa-brands fa-instagram"></i>
+
+Twitter: <i class="fa-brands fa-twitter"></i>
+
+YouTube:<i class="fa-brands fa-youtube"></i>
+
+Website: <i class="fa-solid fa-globe"></i>
