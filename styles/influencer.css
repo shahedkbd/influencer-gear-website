@@ -169,12 +169,6 @@ ul{
     font-size: 0.9rem;
 }
 
-/* .see-more{
-    position: absolute;
-    background-color: white;
-    color: #E02C6D;
-    left: 1140px;
-} */
  .see-more-btn{
     justify-content: flex-end;
  }
@@ -234,3 +228,84 @@ ul{
     border-radius: 50%;
     padding: 5px;
  }
+
+ /* Mobile Responsive */
+
+ @media screen and (max-width: 576px) {
+   
+    nav,
+    ul, 
+    .cart, 
+    .hero_section,
+    .logo_section,
+    .star,
+    .see-more-btn,
+    .featured_overview{
+       display: block;
+
+    }
+    nav{
+        text-align: center;
+    }
+    .hero_section{
+        margin: 5px 0;
+    }
+    .product_collection{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    row-gap: 30px;
+    } 
+
+    .background_img{
+        background-size: 257px;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: block;
+        justify-self: center;
+        margin: 20px 0;
+
+    }
+    .camera{
+        width: 257px;
+    }
+    .hero_section{
+        display:flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .logo_section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 19px;
+    }
+    .logo_img{
+        width: 100%;
+    }
+
+    .see-more-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+     .featured_overview{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    }
+    .featured_overview{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+    .gear_img{
+        width: 100%;
+    }
+    .footer-content ul{
+        display: flex;
+    }
+    .footer-section{
+        margin-bottom: 0;
+    }
+}
